@@ -10,10 +10,6 @@ const Dashboard: React.FC = () => {
     if (storedTransactions) {
       const transactions: Transaction[] = JSON.parse(storedTransactions);
       const monthlyData = calculateMonthlySummary(transactions);
-      
-      
-      
-      
       setChartData(monthlyData);
     }
   }, []);
