@@ -1,11 +1,6 @@
 import BarDashboard from "./graphdash/Bar";
 import PieDashboard from "./graphdash/pie";
-
-
 const Dashboard: React.FC = () => {
-  
-
-
   return (
     <>
       <header className="Dashboard-header">
